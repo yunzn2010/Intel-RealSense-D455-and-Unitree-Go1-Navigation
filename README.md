@@ -1,5 +1,5 @@
 # Intel-RealSense-D455-and-Unitree-Go1-Navigation
-This project deploy uses Intel RealSense D455 camera to deploy Visual SLAM on Unitree Go1 Robot.
+This project uses Intel RealSense D455 camera to deploy Visual SLAM on Unitree Go1 Robot.
 
 For those who can read Mandarin, I highly recommand you read this page:
 [https://www.yuque.com/ironfatty]
@@ -44,6 +44,9 @@ On Raspberry Pi:
 export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.87
 ```
+
+## Path Planning: RRT* and OMPL
+In this project, we use Open Motion Planning Library to implement RRT*.
 
 ## Troubleshooting
 
