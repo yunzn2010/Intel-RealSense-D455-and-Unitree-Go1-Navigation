@@ -1,4 +1,4 @@
-# Intel-RealSense-D455-and-Unitree-Go1-Navigation
+# Unitree_Go1_Navigation_Intel_RealSense_D455
 This project uses Intel RealSense D455 camera to deploy Visual SLAM on Unitree Go1 Robot.
 
 For those who can read Mandarin, I highly recommand you read this page:
