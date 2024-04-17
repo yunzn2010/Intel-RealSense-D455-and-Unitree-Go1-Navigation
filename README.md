@@ -23,7 +23,7 @@ ROS Version: Melodic
 ## Image Transfer
 With the trasfer speed limitation of USB 2.1 port on Go1, we need to find alternative to send image from Intel RealSense D455 to the Jetson Nano. Our team decided to use an external Raspberry Pi 4B(8G) to connect to the Intel RealSense D455 camera and send the captured data to Go1's Jetson Nano through ethernet cable. Therefore, we have a master-slave structure in our system.
 
-ROS Master: Jetson Nano
+ROS Master: Jetson Nano <br>
 ROS Slave: Raspberry Pi 4B
 
 ### ROS: Master-Slave Clock Synchronization
