@@ -13,4 +13,6 @@ With the trasfer speed limitation of USB 2.1 port on Go1, we need to find altern
 
 ```
 export ROS_MASTER_URI=http://192.168.123.15:11311
+export ROS_HOSTNAME=192.168.123.87
+roscore
 ```
