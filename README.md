@@ -4,7 +4,7 @@ This project uses Intel RealSense D455 camera to deploy Visual SLAM on Unitree G
 For those who can read Mandarin, I highly recommand you read this page:
 [https://www.yuque.com/ironfatty]
 
-We are still editing this page.
+We are still editing this page. Please do not directly follow my page.
 
 ### Hardware
 1. 1x Unitree Go1 Robot Education (Jetson Nano Version) set
