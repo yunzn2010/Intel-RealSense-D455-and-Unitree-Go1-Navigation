@@ -45,8 +45,13 @@ export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.87
 ```
 
+## Mapping: Visual SLAM (rtabmap)
+Please refer to this page: [https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping]
+
 ## Path Planning: RRT* and OMPL
 In this project, we use Open Motion Planning Library to implement RRT*.
+
+
 
 ## Troubleshooting
 
