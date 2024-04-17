@@ -44,3 +44,7 @@ On Raspberry Pi:
 export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.87
 ```
+
+## Troubleshooting
+
+
