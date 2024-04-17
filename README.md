@@ -50,18 +50,15 @@ Please refer to this page: [https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldM
 
 ## Path Planning: RRT* and OMPL
 In this project, we use Open Motion Planning Library to implement RRT*.
-
-## Controller: Following the Waypoints
-
-## Obstacle Avoidance Strategy
-
 To install the OMPL:
 ```
 sudo apt-get install ros-melodic-ompl
 ```
 Please change the "melodic" to the correct ROS version of you device.
 
+## Controller: Following the Waypoints
 
+## Obstacle Avoidance Strategy
 
 ## Troubleshooting
 
