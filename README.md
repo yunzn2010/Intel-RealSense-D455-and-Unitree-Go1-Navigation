@@ -33,16 +33,19 @@ sudo apt install chrony
 ```
 
 ### ROS: Master-Slave Communication
-On Jetson Nano:
+#### On Jetson Nano:
 ```
 export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.15
 roscore
 ```
-On Raspberry Pi:
+#### On Raspberry Pi:
 ```
 export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.87
+```
+Launch the Intel RealSense D455 camera. (We tuned down the resolution because using default value will be laggy)
+```
 roslaunch realsense2_camera rs_camera.launch align_depth:=true color_width:=640 color_width:=480 color_fps:=30 depth_width:=640 depth_height:=480 depth_fps:=30
 ```
 
