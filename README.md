@@ -68,6 +68,18 @@ sudo apt-get install ros-melodic-ompl
 ```
 Please change the "melodic" to the correct ROS version of you device.
 
+To start this the path planning demo, open the terminal on Jetson Nano
+```
+roslaunch ompl_rrt_star_demo mapping_and_planning.launch
+```
+The Rviz window should pop up automatically. Click "Add" at bottom left of Rviz window, select the "Map". Make sure you select the /map topic.
+
+#### Start point & End Point selection
+
+
+
+
+
 ## Controller: Following the Waypoints
 
 ## Obstacle Avoidance Strategy
