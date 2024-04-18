@@ -44,13 +44,21 @@ roscore
 export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.87
 ```
+
+## Mapping: Visual SLAM (rtabmap)
+Please refer to this page: [https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping]
+
+#### On Raspberry Pi
 Launch the Intel RealSense D455 camera. (We tuned down the resolution because using default value will be laggy)
 ```
 roslaunch realsense2_camera rs_camera.launch align_depth:=true color_width:=640 color_width:=480 color_fps:=30 depth_width:=640 depth_height:=480 depth_fps:=30
 ```
 
-## Mapping: Visual SLAM (rtabmap)
-Please refer to this page: [https://wiki.ros.org/rtabmap_ros/Tutorials/HandHeldMapping]
+#### On Jetson Nano
+Launch rtabmap 
+```
+roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start --Optimizer/GravitySigma 0.3" depth_topic:=/camera/aligned_depth_to_color/image_raw rgb_topic:=/camera/color/image_raw camera_info_topic:=/camera/color/camera_info approx_sync:=false
+```
 
 ## Path Planning: RRT* and OMPL
 In this project, we use Open Motion Planning Library to implement RRT*.
