@@ -72,7 +72,7 @@ To start this the path planning demo, open the terminal on Jetson Nano
 ```
 roslaunch ompl_rrt_star_demo mapping_and_planning.launch
 ```
-The Rviz window should pop up automatically. Click "Add" at bottom left of Rviz window, select the "Map". Make sure you select the /map topic.
+The Rviz window should pop up automatically. Click "Add" at bottom left of Rviz window, select the "Map". Make sure you select the /map topic. Then, you should see the map displayed on Rviz now.
 
 #### Start point & End Point selection
 
