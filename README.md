@@ -43,6 +43,7 @@ On Raspberry Pi:
 ```
 export ROS_MASTER_URI=http://192.168.123.15:11311
 export ROS_HOSTNAME=192.168.123.87
+roslaunch realsense2_camera rs_camera.launch align_depth:=true color_width:=640 color_width:=480 color_fps:=30 depth_width:=640 depth_height:=480 depth_fps:=30
 ```
 
 ## Mapping: Visual SLAM (rtabmap)
