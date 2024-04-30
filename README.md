@@ -34,9 +34,15 @@ ROS Master: Jetson Nano <br>
 ROS Slave: Raspberry Pi 4B
 
 ### ROS: Master-Slave Clock Synchronization
-Our system uses "chrony" packages. To install it, open the terminal and type:
+To synchronise the clocks on Raspberry Pi and Jetson Nano, our system uses "chrony" packages on both RPi and Nano.
+To install it, open the terminal and type:
 ```
 sudo apt install chrony
+```
+One the Raspberry Pi, in /etc/chrony/ directory.
+Set up the configureation file, ensuring you have this line:
+```
+server 192.168.123.15 iburst
 ```
 
 ### ROS: Master-Slave Communication
